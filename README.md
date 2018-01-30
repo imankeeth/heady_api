@@ -9,22 +9,21 @@
 
 ## API Endpoints
 
-`GET /categories` returns list of all categories
----
-`POST /category` creates a new category with name, parent_category_id 
----
-`GET /category/:category_id` returns category for specific category_id 
----
-`GET /category/:category_id/products` returns all products for a specific category_id
----
+### `GET /categories` returns list of all categories
 
-`GET /products` returns list of all products
----
+### `POST /category` creates a new category with name, parent_category_id 
 
-`POST /product` creates a new product with name, price, description, and category to which it belongs to
----
-`PUT /product/:product_id` updates the specific product like changing name, or adding new category/categories
----
+### `GET /category/:category_id` returns category for specific category_id 
+
+### `GET /category/:category_id/products` returns all products for a specific category_id
+
+
+### `GET /products` returns list of all products
+
+### `POST /product` creates a new product with name, price, description, and category to which it belongs to
+
+### `PUT /product/:product_id` updates the specific product like changing name, or adding new category/categories
+
 
 
 
