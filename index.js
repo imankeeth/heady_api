@@ -9,8 +9,6 @@ import routes from './routes';
 
 require('dotenv').config();
 
-const port = process.env.PORT || 5000;
-
 logger.stream = {
   write(message) {
     logger.info(message);
@@ -30,6 +28,6 @@ app.use('/*', (req, res) => {
   res.json({ message: 'Oops!!! 404 Error!! No API available!' });
 });
 
-app.listen(port, () => {
-  logger.info(`Server started at port ${port}`);
+app.listen(process.env.PORT || 5000, () => {
+  logger.info(`Server started at port ${process.env.PORT}`);
 });
