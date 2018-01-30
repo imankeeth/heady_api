@@ -9,7 +9,7 @@ import routes from './routes';
 
 require('dotenv').config();
 
-const port = process.env.SERVER_PORT || 3000;
+const port = process.env.PORT || 5000;
 
 logger.stream = {
   write(message) {
