@@ -1,7 +1,7 @@
 # Heady's API backend assessment
 ## To access the api go [here](https://heady-backend-test.herokuapp.com/).
 
-## To test it locally
+## To install it locally
 - `git clone git@github.com:imankit/heady_api.git`
 - `cd heady_api/`
 - `yarn` or `npm i`
